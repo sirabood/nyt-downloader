@@ -25,7 +25,7 @@
 
 - Python 3.8+
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- FFmpeg 
+- [FFmpeg](https://www.ffmpeg.org/download.html) 
 - `tkinter` (usually comes with Python)
 - Recommended: Windows OS (others may work with modification)
 
