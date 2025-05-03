@@ -54,7 +54,7 @@ Otherwise, follow these steps(Linux/Mac users can give it a try):
 
 ## 🔒 License
 
-This project is released into the public domain under the terms of the [Unlicense](https://unlicense.org). You are free to use, modify, and distribute this software without any restrictions. For more details, see the [LICENSE](License.txt) file.
+This project is released into the public domain under the terms of the [Unlicense](https://unlicense.org). You are free to use, modify, and distribute this software without any restrictions. For more details, see the [LICENSE](LICENSE) file.
 
 ## 👨‍💻 Authors
 
