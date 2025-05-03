@@ -1,0 +1,87 @@
+{
+    "sponsorblock_mark": [
+        "sponsor",
+        "intro",
+        "outro",
+        "selfpromo",
+        "interaction",
+        "music_offtopic",
+        "preview",
+        "filler",
+        "exclusive_access",
+        "poi_highlight",
+        "poi_nonhighlight"
+    ],
+    "format_dropdown": "Best Video+Audio (Muxed)",
+    "format": "bv*+ba/best",
+    "final_ext": "original",
+    "allow_unplayable_formats": false,
+    "ignore_no_formats_error": false,
+    "format_sort_force": false,
+    "prefer_free_formats": false,
+    "allow_multiple_video_streams": false,
+    "allow_multiple_audio_streams": false,
+    "restrictfilenames": false,
+    "windowsfilenames": true,
+    "trim_file_name": 0,
+    "writesubtitles": true,
+    "writeautomaticsub": true,
+    "embedsubtitles": true,
+    "addmetadata": true,
+    "writethumbnail": true,
+    "embedthumbnail": true,
+    "writedescription": false,
+    "writeinfojson": false,
+    "getcomments": false,
+    "max_parents": 10,
+    "max_replies": 10,
+    "writeannotations": false,
+    "continue_dl": false,
+    "retries": 3,
+    "fragment_retries": 3,
+    "skip_unavailable_fragments": false,
+    "sponsorblock_api": "https://sponsor.ajay.app",
+    "sponsorblock_remove_silent": false,
+    "sponsorblock_query": false,
+    "ignoreerrors": false,
+    "nooverwrites": false,
+    "concurrent_fragment_downloads": false,
+    "postprocessors": [
+        {
+            "key": "FFmpegMetadata",
+            "add_metadata": true,
+            "add_chapters": true
+        },
+        {
+            "key": "FFmpegEmbedSubtitle"
+        },
+        {
+            "key": "SponsorBlock",
+            "api": "https://sponsor.ajay.app",
+            "categories": [
+                "sponsor",
+                "intro",
+                "outro",
+                "selfpromo",
+                "interaction",
+                "music_offtopic",
+                "preview",
+                "filler",
+                "exclusive_access",
+                "poi_highlight",
+                "poi_nonhighlight"
+            ],
+            "when": "after_filter"
+        },
+        {
+            "key": "ModifyChapters",
+            "sponsorblock_chapter_title": "[SponsorBlock]: %(category_names)l",
+            "remove_chapters_patterns": [],
+            "remove_ranges": [],
+            "remove_sponsor_segments": []
+        },
+        {
+            "key": "EmbedThumbnail"
+        }
+    ]
+}
