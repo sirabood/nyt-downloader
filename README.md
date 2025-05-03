@@ -50,7 +50,6 @@ Otherwise, follow these steps(Linux/Mac users can give it a try):
    ```bash
    python nyt_downloader.py
    ```
-   ```
 
 ## 🔒 License
 
