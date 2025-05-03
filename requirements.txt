@@ -1,0 +1,5 @@
+yt-dlp
+tktooltip
+pandas
+pystray
+Pillow
