@@ -31,7 +31,7 @@
 
 ## 📦 Installation
 
-If you are a Windows user, you can download the pre-built EXE-ZIP package from the [Releases](https://github.com/Maurya-nitin/nyt-downloader/releases) page for a hassle-free setup.
+If you are a Windows user, you can download the pre-built [EXE-ZIP](https://github.com/Maurya-Nitin/nyt-downloader/releases/download/v1.0.0/NYT.Downloader.zip) package from the [Releases](https://github.com/Maurya-nitin/nyt-downloader/releases) page for a hassle-free setup.
 
 Otherwise, follow these steps(Linux/Mac users can give it a try):
 
