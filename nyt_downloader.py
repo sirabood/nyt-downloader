@@ -7,7 +7,11 @@ import queue
 import shutil
 import sys
 import json
-from tktooltip import ToolTip
+#customize importing TKToolTip according to your system
+if os.name == "nt":
+    from tktooltip import ToolTip
+else:
+    from TkToolTip import ToolTip
 import pandas as pd
 from pystray import Icon as TrayIcon, MenuItem as item, Menu
 from PIL import Image
@@ -44,7 +48,10 @@ class DownloaderApp:
             master.iconbitmap("Assets/logo.ico")
         except:
             pass
-        master.state("zoomed")  # Fullscreen
+        if os.name == "nt":  # Check if the operating system is Windows
+            master.state("zoomed")  # Fullscreen
+        else:
+            pass
         master.protocol("WM_DELETE_WINDOW", self.close_application)
         self.download_directory = ""
         self.queue = []  # Store download items
@@ -59,12 +66,16 @@ class DownloaderApp:
                 self.global_ydl_opts = json.load(f)  # Load global options from JSON file
         except FileNotFoundError:
             self.global_ydl_opts = {}  # Initialize with empty options if file not found
-        self.export_image = tk.PhotoImage(file="Assets/export.png")
-        self.clear_image = tk.PhotoImage(file="Assets/clear.png")
-        self.search_image = tk.PhotoImage(file="Assets/search.png")
-        self.refresh_image = tk.PhotoImage(file="Assets/refresh.png")
-        self.settings_image = tk.PhotoImage(file="Assets/settings.png")
-        self.import_image = tk.PhotoImage(file="Assets/import.png")
+        try:
+            self.export_image = tk.PhotoImage(file="Assets/Export.png")
+            self.clear_image = tk.PhotoImage(file="Assets/clear.png")
+            self.search_image = tk.PhotoImage(file="Assets/search.png")
+            self.refresh_image = tk.PhotoImage(file="Assets/refresh.png")
+            self.settings_image = tk.PhotoImage(file="Assets/settings.png")
+            self.import_image = tk.PhotoImage(file="Assets/import.png")
+        except tk.TclError as e:
+            messagebox.showerror("Error", f"Failed to load images: {e}\nEnsure the 'Assets' folder exists and contains the required image files.")
+            sys.exit()
         self.format_options = {
             "All Available Formats": "all",
             "Best (Video+Audio)": "best",
