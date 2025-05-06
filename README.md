@@ -33,7 +33,7 @@
 
 If you are a Windows user, you can download the pre-built [EXE-ZIP](https://github.com/Maurya-Nitin/nyt-downloader/releases/download/v1.0.0/NYT.Downloader.zip) package from the [Releases](https://github.com/Maurya-nitin/nyt-downloader/releases) page for a hassle-free setup.
 
-If you are a Linux (debian), you can download the package [NYT Downloader_linux](https://github.com/Maurya-Nitin/nyt-downloader/releases/download/v1.0.0/NYT.Downloader_linux.zip).
+If you are a Linux (debian) users, you can download the package [NYT Downloader_linux](https://github.com/Maurya-Nitin/nyt-downloader/releases/download/v1.0.0/NYT.Downloader_linux.zip).
 
 Otherwise if you want to run it from source code, follow these steps(Linux/Mac users can give it a try):
 
