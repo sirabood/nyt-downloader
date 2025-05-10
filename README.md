@@ -31,6 +31,8 @@
 
 ## 📦 Installation
 
+First you need [FFMPEG](https://www.ffmpeg.org/) to use this, download it and setup in your system.
+
 If you are a Windows user, you can download the pre-built [EXE-ZIP](https://github.com/Maurya-Nitin/nyt-downloader/releases/download/v1.0.0/NYT.Downloader.zip) package from the [Releases](https://github.com/Maurya-nitin/nyt-downloader/releases) page for a hassle-free setup.
 
 If you are a Linux (debian) users, you can download the package [NYT Downloader_linux](https://github.com/Maurya-Nitin/nyt-downloader/releases/download/v1.0.0/NYT.Downloader_linux.zip).
